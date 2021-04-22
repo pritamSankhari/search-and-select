@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Search and Select</title>
+	<script type="text/javascript" src="jquery.js"></script>
+	<style type="text/css">
+		body{
+			background-color: lightgrey;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="search_and_select.css">
+</head>
+<body>
+
+	<!-- 
+		****** HTML STRUCTURE ******
+		
+		#####  Add your own item_type value to the class attribute and ss-item-type as per below mentioned
+
+		<div class="ss_block {item_type} {other class ...}">
+			
+			<input ss-item-type="{item_type}" class="ss_search_input {item_type} {other class ...}" type="text" name="search" placeholder="Select">
+			
+			<input class="ss_selected_item {item_type} {other class ...}" type="hidden" name="item">	
+			
+			<div ss-item-type="{item_type}" class="ss_item_list {item_type} {other class ...}">
+				
+				##### each item div must have attribute 'item-value' which contains your option value
+
+				<div item-value=1 class="ss_item">
+						Item ABC
+				</div>
+
+			</div
+
+		</div>
+	 -->
+
+	<div class="ss_block myitems">
+		<input ss-item-type="myitems" class="ss_search_input myitems" type="text" name="search" placeholder="Select" autocomplete="off">
+		<input class="ss_selected_item myitems abcd" type="hidden" name="item">
+		
+		<div ss-item-type="myitems" class="ss_item_list myitems">
+
+			<div item-value=1 class="ss_item">
+					Item ABC
+			</div>
+
+			<div item-value=2 class="ss_item">
+					Item GA
+			</div>
+
+			<div item-value=3 class="ss_item">
+					Item bb
+			</div>
+
+			<div item-value=4 class="ss_item">
+					Item HA
+			</div>
+
+			<div item-value=5 class="ss_item">
+					Item TAQ
+			</div>
+
+			<div item-value=6 class="ss_item">
+					Item RAT
+			</div>
+
+			<div item-value=7 class="ss_item">
+					Item Va
+			</div>
+
+			<div item-value=8 class="ss_item">
+					Item JEW
+			</div>
+
+			<div item-value=9 class="ss_item">
+					A
+			</div>
+			
+		</div>
+	</div>
+
+	<div class="ss_block myusers">
+		<input ss-item-type="myusers" class="ss_search_input myusers" type="text" name="search" placeholder="Select" autocomplete="off">
+		<input class="ss_selected_item myusers" type="hidden" name="item">
+		
+		<div ss-item-type="myusers" class="ss_item_list myusers">
+
+			<div item-value=91 class="ss_item">
+					User1
+			</div>
+
+			<div item-value=25 class="ss_item">
+					User2
+			</div>
+
+			<div item-value=3 class="ss_item">
+					User3
+			</div>
+
+			<div item-value=4 class="ss_item">
+					User4
+			</div>
+
+			<div item-value=12 class="ss_item">
+					User5
+			</div>
+
+			<div item-value=543 class="ss_item">
+					User6
+			</div>
+
+			<div item-value=54 class="ss_item">
+					User7
+			</div>
+
+			<div item-value=24 class="ss_item">
+					User8
+			</div>
+			
+		</div>
+	</div>
+
+	<script type="text/javascript" src="search_and_select.js">
+	</script>
+	<script type="text/javascript">
+	 	
+	 	// These functions must be invoked ... otherwise search and select option will not work
+	 	initOnFocusSearchInput()
+	 	initOnSearchInput()
+		initOnOptionSelect()
+	</script>
+</body>
+</html>

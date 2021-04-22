@@ -1,0 +1,36 @@
+.ss_block{
+	/*width: inherit;*/
+	width: initial;
+	transition: 2s;
+
+}
+.ss_item_id{
+	display: none;
+}
+.ss_item{
+
+	padding-left: 8px;
+	padding-right: 8px;
+	/*padding-top: 5px;
+	padding-bottom: 5px;*/
+	user-select: none;
+	cursor: pointer;
+}
+.ss_item:hover{
+	background-color: dodgerblue;
+	color:white;
+}
+.ss_item_list{
+	
+	width: 300px;
+	border:1px solid grey;
+	position: absolute;
+	transition: 2s;
+	display: none;
+	height: 180px;
+	background-color: white;
+	overflow-x: hidden;
+	box-shadow: 1px 1px 10px 1px lightgrey;
+	z-index: 99;
+	/*padding: 5px;*/
+}
