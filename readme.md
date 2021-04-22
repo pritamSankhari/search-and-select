@@ -35,17 +35,17 @@
 	 	initOnSearchInput()
 		initOnOptionSelect()
 
-		// if you add some custom codes or functionalties after input each cahracter then call
+		// if you add some custom codes or functionalties to execute after input each character then call
 		// initOnSearchInput(function(){ 
 		// code ...	
 		// })
 
-		// if you add some custom codes or functionalties after delete all cahracters from the input field then call
+		// if you add some custom codes or functionalties to execute after delete all cahracters from the input field then call
 		// initOnSearchInput(null,function(){ 
 		// code ...	
 		// })
 
-		// if you add some custom codes or functionalties after select each option then call
+		// if you add some custom codes or functionalties to execute after select each option then call
 		// initOnOptionSelect(function(){ 
 		// code ...	
 		// })
