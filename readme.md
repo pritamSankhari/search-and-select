@@ -1,7 +1,7 @@
 # SEARCH AND SELECT #
 ----------------------
 
-#### Documentaion ####
+### Documentaion ###
 ----------------------
 ###### HTML Structure ######
 
@@ -23,6 +23,8 @@
 		</div
 	</div>
 </div>
+
+###### Add this Javascript code ######
 
 <div>
 
