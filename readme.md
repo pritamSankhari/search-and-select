@@ -6,6 +6,7 @@
 ###### HTML Structure ######
 
 <div>
+	
 	<div class="ss_block {your_custom_item_type} {other class ...}">
 				
 		<input ss-item-type="{your_custom_item_type}" class="ss_search_input {your_custom_item_type} {other class ...}" type="text" name="search" placeholder="Select" autocomplete="off">
@@ -20,11 +21,11 @@
 			</div>
 
 		</div
-
 	</div>
 </div>
 
 <div>
+
 	<script type="text/javascript">
 		
 		// These functions must be called ... otherwise search and select option will not work
