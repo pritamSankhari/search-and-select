@@ -3,6 +3,14 @@
 
 ### Documentaion ###
 ----------------------
+###### Include Javascript library ######
+
+```html 
+<script src="jquery.js"></script>
+<script src="search_and_select.js"></script>
+
+```
+
 ###### HTML Structure ######
 
 ```html 
