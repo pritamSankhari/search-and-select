@@ -27,8 +27,6 @@
 ###### Add this Javascript code ######
 
 ```javascript
-
-<script type="text/javascript">
 	
 	// These functions must be called ... otherwise search and select option will not work
  	initOnFocusSearchInput()
@@ -49,6 +47,5 @@
 	// initOnOptionSelect(function(){ 
 	// code ...	
 	// })
-</script>
 
 ```
