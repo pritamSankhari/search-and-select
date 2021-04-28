@@ -5,6 +5,7 @@
 ----------------------
 ###### HTML Structure ######
 
+```html
 <div>
 	
 	<div class="ss_block {your_custom_item_type} {other class ...}">
@@ -23,6 +24,8 @@
 		</div
 	</div>
 </div>
+
+```
 
 ###### Add this Javascript code ######
 
